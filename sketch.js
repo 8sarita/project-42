@@ -77,11 +77,12 @@ function draw() {
   }
    if(gameState === 0){
 
+      crewDragon.addImage(crewDragonImg);
     
    }
   
 
-  // console.log(crewDragon.x,crewDragon.y);
+  console.log(crewDragon.x,crewDragon.y);
   
   docking();
 
